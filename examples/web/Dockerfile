@@ -1,4 +1,4 @@
-FROM golang:1.21.2
+FROM golang:1.24.3
 
 # Debugging within the container
 RUN apt-get update && apt-get install dnsutils redis-tools -y
